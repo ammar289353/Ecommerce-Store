@@ -1,15 +1,16 @@
 interface ContainerProps {
     children: React.ReactNode;
-}
-
-const Container: React.FC<ContainerProps> = ({
+  }
+  
+  const Container: React.FC<ContainerProps> = ({
     children
-}) => {
+  }) => {
     return ( 
-        <div className="mx-auto max-w-7xl">
-            {children}
-        </div>
+      <div className="mx-auto max-w-7xl">
+        {children}
+      </div>
      );
-}
- 
-export default Container;
+  };
+  
+  export default Container;
+  
