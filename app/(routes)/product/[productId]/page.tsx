@@ -22,7 +22,7 @@ const ProductPage: React.FC<ProductPageProps> = async ({
   });
 
   if (!product) {
-    return null;
+    return null;  
   }
 
   return (
